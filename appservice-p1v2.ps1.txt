@@ -1,0 +1,1 @@
+az appservice plan update --name ASP-rg0607app-ba89 --resource-group rg-0607-app --sku P1V2
