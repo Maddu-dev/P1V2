@@ -1,1 +1,7 @@
 az appservice plan update --name ASP-rg0607app-ba89 --resource-group rg-0607-app --sku P1V2
+- task: AzureCLI@2
+  inputs:
+    azureSubscription: 'Azure Pass - Sponsorship (a128eae0-8805-4fcc-a92f-ef02f3a5933e)'
+    scriptType: 'ps'
+    scriptLocation: 'scriptPath'
+    scriptPath: 'Maddu-dev/P1V2 / appservice-p1v2.ps1.txt'
